@@ -14,9 +14,9 @@
 
 - dotnet ef dbcontext scaffold "Hostname=localhost;Port=5432;Database=db_school_management;Username=postgres;Password=password;Pooling=true" Npgsql.EntityFrameworkCore.PostgreSQL
 
-- dotnet ef migrations add Init --context SchoolContext
+<!-- - dotnet ef migrations add Init --context SchoolContext
 
-- dotnet ef migrations script --context SchoolContext
+- dotnet ef migrations script --context SchoolContext -->
 
 - dotnet build
 
