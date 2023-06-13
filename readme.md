@@ -18,6 +18,6 @@
 
 - dotnet ef migrations script --context SchoolContext
 
-- dotnet build
+<!-- - dotnet build -->
 
 - dotnet run
